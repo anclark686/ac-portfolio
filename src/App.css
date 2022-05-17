@@ -1,3 +1,39 @@
-.contact {
-    font-size: 50px;
+a {
+    font-weight: bold;
+    font-size: 25px;
+    color: midnightblue;
+}
+
+.fullApp {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+
+.header {
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    text-align: center;
+    padding: 2vw;
+}
+
+#drop-down-nav {
+    font-size: 30px;
+    padding: 10px 29px;
+    margin-top: 2vw;
+    text-align: left;
+}
+
+#drop-down-nav:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#alycia {
+    font-family: 'Sacramento', cursive;
+    font-size: 15vw;
+    margin-top: 10vw;
+}
+
+#title {
+    font-size: 4vw;
 }
