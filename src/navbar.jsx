@@ -29,7 +29,7 @@ function Navbar() {
                 <Link to="/contact"><div>Contact</div></Link>
               </Dropdown.Item>
               <Dropdown.Divider />
-              <Dropdown.Item eventKey="resume" className="NavButtons" href="http://www.google.com">
+              <Dropdown.Item eventKey="resume" className="NavButtons" href="http://127.0.0.1:8000/">
                 Resume
               </Dropdown.Item>
             </DropdownButton>
