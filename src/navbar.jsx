@@ -29,7 +29,7 @@ function Navbar() {
                 <Link to="/contact"><div>Contact</div></Link>
               </Dropdown.Item>
               <Dropdown.Divider />
-              <Dropdown.Item eventKey="resume" className="NavButtons" href="http://127.0.0.1:8000/">
+              <Dropdown.Item eventKey="resume" className="NavButtons" href="https://reyaly-resume.herokuapp.com/">
                 Resume
               </Dropdown.Item>
             </DropdownButton>
