@@ -10,79 +10,63 @@ class Project {
     }
 }
 
-const thisProject = new Project(
-    IMAGES.pic1,
-    "https://www.google.com",
-    "This project",
-    "JavaScript: React",
-    "Today"
-);
 
 const resume = new Project(
-    IMAGES.pic3,
-    "https://www.bing.com",
+    IMAGES.pic1,
+    "https://reyaly-resume.herokuapp.com/",
     "Resume",
     "Python: Django",
-    "Tomorrow"
+    "2022"
 );
 
-const thisProject3 = new Project(
-    IMAGES.pic4,
-    "www.google.com",
-    "This project",
-    "JavaScript: React",
-    "Today"
-);
-
-const thisProject4 = new Project(
-    IMAGES.pic5,
-    "www.google.com",
-    "This project",
-    "JavaScript: React",
-    "Today"
-);
-
-const thisProject5 = new Project(
-    IMAGES.pic6,
-    "www.google.com",
-    "This project",
-    "JavaScript: React",
-    "Today"
-);
-
-const thisProject2 = new Project(
-    IMAGES.pic7,
-    "www.google.com",
-    "This project",
-    "JavaScript: React",
-    "Today"
-);
-
-const thisProject6 = new Project(
-    IMAGES.pic8,
-    "www.google.com",
-    "This project",
-    "JavaScript: React",
-    "Today"
-);
-
-const thisProject7 = new Project(
+const calc = new Project(
     IMAGES.pic2,
-    "www.google.com",
-    "This project",
-    "JavaScript: React",
-    "Today"
+    "https://github.com/anclark686/new-calculator",
+    "Calculator",
+    "JavaScript: React, Electron",
+    "2022"
 );
+
+const toDo = new Project(
+    IMAGES.pic3,
+    "https://reayaly-todo.herokuapp.com/",
+    "ToDo List",
+    "Python: Django",
+    "2022"
+);
+
+const blog = new Project(
+    IMAGES.pic4,
+    "https://reyaly-blog.herokuapp.com/",
+    "Blog",
+    "Python: Flask",
+    "2022"
+);
+
+const pne = new Project(
+    IMAGES.pic5,
+    "#",
+    "Project Editor",
+    "Python: tkinter",
+    "2021"
+);
+
+const gm = new Project(
+    IMAGES.pic6,
+    "#",
+    "GridMaster",
+    "VBA",
+    "2022"
+);
+
 
 let projects = [
-    thisProject, 
-    resume,
-    thisProject2,
-    thisProject3,
-    thisProject4,
-    thisProject5,
-    thisProject6,
-    thisProject7,
+    resume, 
+    calc,
+    blog,
+    toDo,
+    pne,
+    gm,
 
 ];
 
