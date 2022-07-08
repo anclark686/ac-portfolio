@@ -1,10 +1,10 @@
 const IMAGES = {
-  pic1: require('./resume.jpg'),
-  pic2: require('./Calc.jpg'),
-  pic3: require('./ToDo.jpg'),
-  pic4: require('./Blog.jpg'),
-  pic5: require('./PNE.jpg'),
-  pic6: require('./GM.jpg'),
+  pic1: require('./resume.png'),
+  pic2: require('./Calc.png'),
+  pic3: require('./ToDo.png'),
+  pic4: require('./Blog.png'),
+  pic5: require('./PNE.png'),
+  pic6: require('./GM.png'),
 }
 
 export default IMAGES;
