@@ -105,9 +105,9 @@ const gm = new Project(
 
 let projects = [
     portfolio,
+    resume, 
     reading,
     travel,
-    resume, 
     weather,
     calc,
     blog,
