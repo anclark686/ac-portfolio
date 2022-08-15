@@ -30,6 +30,24 @@ const resume = new Project(
     "2022"
 );
 
+const reading = new Project(
+    IMAGES.pic9,
+    "#",
+    "#",
+    "Book Tracker",
+    "Javascript: React",
+    "To Come"
+);
+
+const travel = new Project(
+    IMAGES.pic10,
+    "#",
+    "#",
+    "Travel Photos Site",
+    "Javascript: React",
+    "To Come"
+);
+
 const weather = new Project(
     IMAGES.pic7,
     "https://reyaly-weather.herokuapp.com/",
@@ -87,6 +105,8 @@ const gm = new Project(
 
 let projects = [
     portfolio,
+    reading,
+    travel,
     resume, 
     weather,
     calc,

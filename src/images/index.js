@@ -6,7 +6,9 @@ const IMAGES = {
   pic5: require('./PNE.jpg'),
   pic6: require('./GM.jpg'),
   pic7: require('./weather.png'),
-  pic8: require('./portfolio.png')
+  pic8: require('./portfolio.png'),
+  pic9: require('./reading.png'),
+  pic10: require('./travel.png')
 }
 
 export default IMAGES;
