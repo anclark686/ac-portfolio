@@ -64,6 +64,16 @@ a {
     margin-right: auto;
 }
 
+.modalButtons {
+    margin: 10px auto;
+    
+}
+
+.modalButton {
+    margin: 0px 10px;
+    width: 175px;
+    height: 40px;
+}
 
 #drop-down-nav {
     font-size: 30px;

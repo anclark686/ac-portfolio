@@ -1,12 +1,17 @@
-import {React} from "react";
+import { React, useState } from "react";
 import projects from "./ProjectList";
-import { Card, Button } from 'react-bootstrap';
+import { Card, Button, Modal } from 'react-bootstrap';
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 
 
 
 const ProjectCard = ({project}) => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
       <div className="project">
 
@@ -23,32 +28,35 @@ const ProjectCard = ({project}) => {
               <h3>{project.title}</h3>
               <h4>{project.language}</h4>
               <p>{project.date}</p>
+              {project.link === "#" ? null :
               <Button 
                 id="projectButton"
                 variant="info" 
-                href={project.link}>
-              View Code</Button>
+                onClick={handleShow}>
+              View More</Button>}
 
+              <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                  <Modal.Title>{project.title}</Modal.Title>
+                </Modal.Header>
+                <Modal.Body className="modalButtons">
+                  <Button variant="info" href={project.link} className="modalButton">
+                    View Site
+                  </Button>
+                  <Button variant="info" href={project.ghLink} className="modalButton">
+                    View Code
+                  </Button>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="info" onClick={handleClose}>
+                    Close
+                  </Button>
+                  
+                </Modal.Footer>
+              </Modal>
           </div>
 
       </div>
-
-/*       <div>
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={project.image} />
-          <Card.Body>
-            <Card.Title>{project.title}</Card.Title>
-            <Card.Text>
-              {project.language}
-              <br />
-              {project.date}
-            </Card.Text>
-            <Button 
-            variant="info" 
-            href={project.link}>View Code</Button>
-          </Card.Body>
-        </Card>
-      </div> */
   );
 }
 
