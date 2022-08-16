@@ -26,18 +26,28 @@ const resume = new Project(
     "https://reyaly-resume.herokuapp.com/",
     "https://github.com/anclark686/reyaly_resume",
     "Resume",
-    "Python: Django",
+    "Python: Django, SQLite",
     "2022"
 );
 
 const reading = new Project(
     IMAGES.pic9,
-    "#",
-    "#",
+    "https://reyaly-books.herokuapp.com/",
+    "https://github.com/anclark686/reyaly-books",
     "Book Tracker",
-    "Javascript: React",
-    "To Come"
+    "Javascript: React, MySQL",
+    "2022"
 );
+
+const instagram = new Project(
+    IMAGES.pic11,
+    "https://reyalygram.com/",
+    "https://github.com/anclark686/instagram-clone",
+    "Instagram Clone",
+    "Javascript: React, Firebase",
+    "2022"
+);
+
 
 const travel = new Project(
     IMAGES.pic10,
@@ -53,7 +63,7 @@ const weather = new Project(
     "https://reyaly-weather.herokuapp.com/",
     "https://github.com/anclark686/weatherapp",
     "Weather App",
-    "Javascript: React",
+    "Javascript: React, Electron",
     "2022"
 );
 
@@ -62,7 +72,7 @@ const calc = new Project(
     "https://reyaly-calculator.herokuapp.com/",
     "https://github.com/anclark686/new-calculator",
     "Calculator",
-    "Javascript: React",
+    "Javascript: React, Electron",
     "2022"
 );
 
@@ -71,7 +81,7 @@ const toDo = new Project(
     "https://reayaly-todo.herokuapp.com/",
     "https://github.com/anclark686/django-todolist",
     "ToDo List",
-    "Python: Django",
+    "Python: Django, SQLite",
     "2022"
 );
 
@@ -80,7 +90,7 @@ const blog = new Project(
     "https://reyaly-blog.herokuapp.com/",
     "https://github.com/anclark686/blog2",
     "Blog",
-    "Python: Flask",
+    "Python: Flask, SQLite",
     "2022"
 );
 
@@ -107,14 +117,14 @@ let projects = [
     portfolio,
     resume, 
     reading,
-    travel,
+    instagram,
     weather,
     calc,
     blog,
     toDo,
-    pne,
     gm,
-
+    pne,
+    travel,
 ];
 
 export default projects;
