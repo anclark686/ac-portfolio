@@ -52,7 +52,7 @@ const blackBook = new Project(
     IMAGES.pic12,
     "https://reyaly-black-book.netlify.app/",
     "https://github.com/anclark686/Reyaly-Black-Book",
-    "Instagram Clone",
+    "Online Black Book",
     "Javascript: React, MongoDB",
     "2022"
 );
@@ -72,7 +72,7 @@ const weather = new Project(
     "https://reyaly-weather.herokuapp.com/",
     "https://github.com/anclark686/weatherapp",
     "Weather App",
-    "Javascript: React, Electron",
+    "Javascript: React, Electron, APIs",
     "2022"
 );
 
