@@ -48,13 +48,22 @@ const instagram = new Project(
     "2022"
 );
 
+const blackBook = new Project(
+    IMAGES.pic12,
+    "https://reyaly-black-book.netlify.app/",
+    "https://github.com/anclark686/Reyaly-Black-Book",
+    "Instagram Clone",
+    "Javascript: React, MongoDB",
+    "2022"
+);
+
 
 const travel = new Project(
     IMAGES.pic10,
-    "#",
-    "#",
+    "https://reyaly-travel.web.app/",
+    "https://github.com/anclark686/travel_site",
     "Travel Photos Site",
-    "Javascript: React",
+    "Javascript: React, Firebase",
     "To Come"
 );
 
@@ -117,14 +126,15 @@ let projects = [
     portfolio,
     resume, 
     reading,
+    travel,
     instagram,
+    blackBook,
     weather,
     calc,
     blog,
     toDo,
     gm,
     pne,
-    travel,
 ];
 
 export default projects;
