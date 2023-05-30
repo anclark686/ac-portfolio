@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import projects from "./ProjectList";
-import { Card, Button, Modal } from 'react-bootstrap';
+import { Button, Modal } from 'react-bootstrap';
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 
