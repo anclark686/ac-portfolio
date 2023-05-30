@@ -104,7 +104,7 @@ export const FormPage = (props) => {
                         />
                     </Form.Group>
 
-                    <Button  variant="info" type="submit">
+                    <Button variant="info" type="submit" id="email-submit">
                         Submit
                         </Button>
                 </Form >
