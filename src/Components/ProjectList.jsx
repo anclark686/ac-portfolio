@@ -39,6 +39,15 @@ const reading = new Project(
     "2022"
 );
 
+const travel = new Project(
+    IMAGES.pic10,
+    "https://reyalytravel.web.app/",
+    "https://github.com/anclark686/travel_site",
+    "Travel Photos Site",
+    "Javascript: React, Firebase",
+    "2022"
+);
+
 const instagram = new Project(
     IMAGES.pic11,
     "https://reyalygram.com/",
@@ -57,34 +66,6 @@ const blackBook = new Project(
     "2022"
 );
 
-
-const travel = new Project(
-    IMAGES.pic10,
-    "https://reyaly-travel.web.app/",
-    "https://github.com/anclark686/travel_site",
-    "Travel Photos Site",
-    "Javascript: React, Firebase",
-    "To Come"
-);
-
-const weather = new Project(
-    IMAGES.pic7,
-    "https://reyaly-weather.herokuapp.com/",
-    "https://github.com/anclark686/weatherapp",
-    "Weather App",
-    "Javascript: React, Electron, APIs",
-    "2022"
-);
-
-const calc = new Project(
-    IMAGES.pic2,
-    "https://reyaly-calculator.herokuapp.com/",
-    "https://github.com/anclark686/new-calculator",
-    "Calculator",
-    "Javascript: React, Electron",
-    "2022"
-);
-
 const toDo = new Project(
     IMAGES.pic3,
     "https://reayaly-todo.herokuapp.com/",
@@ -100,6 +81,24 @@ const blog = new Project(
     "https://github.com/anclark686/blog2",
     "Blog",
     "Python: Flask, SQLite",
+    "2022"
+);
+
+const weather = new Project(
+    IMAGES.pic7,
+    "https://reyaly-weather.netlify.app/",
+    "https://github.com/anclark686/weatherapp",
+    "Weather App",
+    "Javascript: React, Electron, External APIs",
+    "2022"
+);
+
+const calc = new Project(
+    IMAGES.pic2,
+    "https://reyaly-calculator.netlify.app/",
+    "https://github.com/anclark686/new-calculator",
+    "Calculator",
+    "Javascript: React, Electron",
     "2022"
 );
 
