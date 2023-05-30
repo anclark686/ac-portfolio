@@ -128,10 +128,10 @@ let projects = [
     travel,
     instagram,
     blackBook,
-    weather,
-    calc,
     blog,
     toDo,
+    weather,
+    calc,
     gm,
     pne,
 ];
