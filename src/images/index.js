@@ -10,7 +10,11 @@ const IMAGES = {
   pic9: require('./reading.png'),
   pic10: require('./travel2.png'),
   pic11: require('./instagram.png'),
-  pic12: require('./blackBook.png')
+  pic12: require('./blackBook.png'),
+  pic13: require('./tech-fansite.png'),
+  pic14: require('./banana-fansite.png'),
+  pic15: require('./electron-gridmaster.png'),
+  pic16: require('./Release-notes-app.png')
 }
 
 export default IMAGES;

@@ -74,7 +74,7 @@ const Projects = () => {
         ))}
 
       </div>
-
+      <h4>* Denotes a work project, site and code unavailable.</h4>    
     </div>
   );
 };

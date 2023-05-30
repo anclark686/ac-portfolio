@@ -102,12 +102,48 @@ const calc = new Project(
     "2022"
 );
 
+const banana = new Project(
+    IMAGES.pic14,
+    "https://anclark686.github.io/group-fansite/",
+    "https://github.com/anclark686/group-fansite",
+    "Banana Fansite",
+    "HTML, CSS",
+    "2023"
+);
+
+const tech = new Project(
+    IMAGES.pic13,
+    "https://tech-fansite.netlify.app/",
+    "https://github.com/anclark686/tech-fansite",
+    "Tech Fansite",
+    "HTML, CSS, Vanilla Javascript",
+    "2023"
+);
+
+const newGM = new Project(
+    IMAGES.pic15,
+    "#",
+    "#",
+    "Updated Gridmaster*",
+    "Python: Flask, Javascript: React & Electron",
+    "2023"
+);
+
+const renoApp = new Project(
+    IMAGES.pic16,
+    "#",
+    "#",
+    "Release Notes App*",
+    "Python: Flask, Javascript: React",
+    "2023"
+);
+
 const pne = new Project(
     IMAGES.pic5,
     "#",
     "#",
     "Project Editor",
-    "Python: tkinter",
+    "Python: tkinter*",
     "2021"
 );
 
@@ -115,7 +151,7 @@ const gm = new Project(
     IMAGES.pic6,
     "#",
     "#",
-    "GridMaster",
+    "GridMaster*",
     "VBA",
     "2022"
 );
@@ -132,6 +168,10 @@ let projects = [
     toDo,
     weather,
     calc,
+    banana,
+    tech,
+    newGM,
+    renoApp,
     gm,
     pne,
 ];
