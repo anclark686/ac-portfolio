@@ -40,10 +40,10 @@ const ProjectCard = ({project}) => {
                   <Modal.Title>{project.title}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="modalButtons">
-                  <Button variant="info" href={project.link} className="modalButton">
+                  <Button variant="info" href={project.link} target="_blank" rel="noreferrer" className="modalButton">
                     View Site
                   </Button>
-                  <Button variant="info" href={project.ghLink} className="modalButton">
+                  <Button variant="info" href={project.ghLink} target="_blank" rel="noreferrer" className="modalButton">
                     View Code
                   </Button>
                 </Modal.Body>
