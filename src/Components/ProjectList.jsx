@@ -26,7 +26,7 @@ const resume = new Project(
     "https://reyaly-resume.herokuapp.com/",
     "https://github.com/anclark686/reyaly_resume",
     "Resume",
-    "Python: Django, SQLite",
+    "Python: Django, MySQL",
     "2022"
 );
 
