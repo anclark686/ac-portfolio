@@ -84,6 +84,24 @@ const blog = new Project(
     "2022"
 );
 
+const blogRuby = new Project(
+    IMAGES.pic17,
+    "https://reyaly-blog-ruby.herokuapp.com/",
+    "https://github.com/anclark686/ruby-blog",
+    "Ruby Blog",
+    "Ruby: Rails, MySQL",
+    "2023"
+);
+
+const weatherNew = new Project(
+    IMAGES.pic18,
+    "https://anclark686.github.io/weather-report/",
+    "https://github.com/anclark686/weather-report",
+    "New Weather App",
+    "Vanilla Javascript, External APIs",
+    "2023"
+);
+
 const weather = new Project(
     IMAGES.pic7,
     "https://reyaly-weather.netlify.app/",
@@ -166,6 +184,8 @@ let projects = [
     blackBook,
     blog,
     toDo,
+    blogRuby,
+    weatherNew,
     weather,
     calc,
     banana,
