@@ -48,9 +48,18 @@ const travel = new Project(
     "2022"
 );
 
+const recipes = new Project(
+    IMAGES.pic18,
+    "https://main.d3h1w2pu1ejnii.amplifyapp.com/",
+    "https://github.com/anclark686/reyaly-recipes-frontend",
+    "Recipe Site",
+    "Ruby: Rails, Javascript: Vue, MySQL",
+    "2023"
+);
+
 const instagram = new Project(
     IMAGES.pic11,
-    "https://reyalygram.com/",
+    "https://reyalygram.web.app/",
     "https://github.com/anclark686/instagram-clone",
     "Instagram Clone",
     "Javascript: React, Firebase",
@@ -180,6 +189,7 @@ let projects = [
     resume, 
     reading,
     travel,
+    recipes,
     instagram,
     blackBook,
     blog,
