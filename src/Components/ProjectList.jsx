@@ -49,7 +49,7 @@ const travel = new Project(
 );
 
 const recipes = new Project(
-    IMAGES.pic18,
+    IMAGES.pic19,
     "https://main.d3h1w2pu1ejnii.amplifyapp.com/",
     "https://github.com/anclark686/reyaly-recipes-frontend",
     "Recipe Site",
