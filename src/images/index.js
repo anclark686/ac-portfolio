@@ -17,7 +17,8 @@ const IMAGES = {
   pic16: require('./Release-notes-app.png'),
   pic17: require('./ruby-blog.png'),
   pic18: require('./new-weather.png'),
-  pic19: require('./recipes.png')
+  pic19: require('./recipes.png'),
+  pic20: require('./ada-task-list.png'),
 }
 
 export default IMAGES;
