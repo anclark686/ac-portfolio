@@ -16,17 +16,17 @@ function Navbar() {
               title="Menu"
               menuVariant="dark"
             >
-              <Dropdown.Item eventKey="home" className="NavButtons">
-                <Link to="/"><div>Home</div></Link>
+              <Dropdown.Item as={Link} to="/" eventKey="home" className="NavButtons">
+                <div>Home</div>
               </Dropdown.Item>
-              <Dropdown.Item eventKey="about" className="NavButtons">
-                <Link to="/about"><div>About</div></Link>
+              <Dropdown.Item as={Link} to="/about" eventKey="about" className="NavButtons">
+                <div>About</div>
               </Dropdown.Item>
-              <Dropdown.Item eventKey="projects" className="NavButtons">
-                <Link to="/projects"><div>Projects</div></Link>
+              <Dropdown.Item as={Link} to="/projects" eventKey="projects" className="NavButtons">
+                <div>Projects</div>
               </Dropdown.Item>
-              <Dropdown.Item eventKey="contact" className="NavButtons">
-                <Link to="/contact"><div>Contact</div></Link>
+              <Dropdown.Item as={Link} to="/contact" eventKey="contact" className="NavButtons">
+                <div>Contact</div>
               </Dropdown.Item>
               <Dropdown.Divider />
               <Dropdown.Item eventKey="resume" className="NavButtons" href="https://reyaly-resume.herokuapp.com/">

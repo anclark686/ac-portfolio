@@ -18,6 +18,7 @@ export const FormPage = (props) => {
             variables
         ).then(res => {
             console.log('Email successfully sent!')
+            alert(`Thanks for your message!`);
         })
             .catch(err => console.error('There has been an Error.', err))
     }
@@ -52,7 +53,6 @@ export const FormPage = (props) => {
         } 
         else {
             e.preventDefault();
-            alert(`Thanks for your message!`);
             const templateId = 'template_199uw68';
             const serviceID = "service_6omd18s";
             sendFeedback(serviceID, templateId, { from_name: formData.name, message_html: formData.message, email: formData.email })

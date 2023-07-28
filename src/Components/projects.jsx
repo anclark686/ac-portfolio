@@ -69,8 +69,8 @@ const Projects = () => {
       <a href="https://github.com/anclark686" target="_blank" rel="noreferrer">GitHub</a>
 
       <div className="container">
-        {projects.map((project) => (
-            <ProjectCard project={project} />
+        {projects.map((project, i) => (
+            <ProjectCard key={i} project={project} />
         ))}
 
       </div>

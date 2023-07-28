@@ -1,111 +1,164 @@
 * {
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
 
 a {
-    font-weight: bold;
-    font-size: 25px;
-    color: midnightblue;
+  font-weight: bold;
+  font-size: 25px;
+  color: #31d2f2 !important;
+  text-decoration: none;
+  font-weight: 700 !important;
 }
 
 .fullApp {
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
 }
 
-
 .header {
-    font-family: 'Sacramento', cursive;
-    font-size: 90px;
-    text-align: center;
-    padding: 2vw;
+  font-family: "Sacramento", cursive;
+  font-size: 90px;
+  text-align: center;
+  padding: 2vw;
 }
 
 .container {
-    width: 100%;
-    margin-top: 3rem;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
+  width: 100%;
+  margin-top: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 .projectImage {
-    width: 450px;
-    height: 300px;
-    margin: 1.5rem;
-  
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-    border: none;
-  
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
-    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
-  }
-  
-  
-.project:hover {
-    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
-    transform: scale(1.05, 1.05);
-  }
+  width: 450px;
+  height: 300px;
+  margin: 1.5rem;
 
-  .contactCard {
-    margin-top: 3rem;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin-left: auto;
-    margin-right: auto;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  border: none;
+
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+
+.project:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05, 1.05);
+}
+
+.contactCard {
+  margin-top: 3rem;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 7px;;
 }
 
 .modalButtons {
-    margin: 10px auto;
-    
+  margin: 10px auto;
 }
 
 .modalButton {
-    margin: 0px 10px;
-    width: 175px;
-    height: 40px;
+  margin: 0px 10px;
+  width: 175px;
+  height: 40px;
 }
 
 #drop-down-nav {
-    font-size: 30px;
-    padding: 10px 29px;
-    margin-top: 2vw;
-    text-align: left;
+  font-size: 30px;
+  padding: 10px 29px;
+  margin-top: 2vw;
+  text-align: left;
 }
 
 #drop-down-nav:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 #alycia {
-    font-family: 'Sacramento', cursive;
-    font-size: 15vw;
-    margin-top: 10vw;
+  font-family: "Sacramento", cursive;
+  font-size: 15vw;
+  margin-top: 10vw;
 }
 
 #title {
-    font-size: 4vw;
+  font-size: 4vw;
+}
+
+.link-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.home-link {
+  border: 2px solid black;
+  width: 400px;
+  height: 200px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.tech-pic {
+  width: 100px;
+  margin: 20px;
+}
+
+.subheader {
+  margin: 20px;
+  font-weight: 700;
+
+}
+
+.tech-header {
+  margin-top: 50px;
+}
+
+.technologies {
+  width: 75%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tech-item {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 5px;
+  width: 200px;
+}
+
+.tech-icon {
+  font-size: 7rem;
+  color: #31d2f2;
 }
 
 #projectButton {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #email-submit {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 600px) {
-    .contactCard {
-        width: 75%;
-    }
+  .contactCard {
+    width: 75%;
   }
+}

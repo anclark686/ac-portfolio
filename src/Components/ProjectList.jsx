@@ -17,7 +17,7 @@ const resume = new Project(
     "https://github.com/anclark686/reyaly_resume",
     "Resume",
     "Python: Django, MySQL",
-    "2022 - Personal"
+    "Ongoing - Personal"
 );
 
 const calc = new Project(
@@ -25,6 +25,7 @@ const calc = new Project(
     "https://reyaly-calculator.netlify.app/",
     "https://github.com/anclark686/new-calculator",
     "Calculator",
+    // eslint-disable-next-line
     "Javascript: React, Electron",
     "2022 - Personal"
 );
@@ -70,6 +71,7 @@ const weather = new Project(
     "https://reyaly-weather.netlify.app/",
     "https://github.com/anclark686/weatherapp",
     "Weather App",
+    // eslint-disable-next-line
     "Javascript: React, Electron, External APIs",
     "2022 - Personal"
 );
@@ -79,8 +81,9 @@ const portfolio = new Project(
     "https://reyaly-portfolio.herokuapp.com/",
     "https://github.com/anclark686/ac-portfolio",
     "Portfolio",
+    // eslint-disable-next-line
     "Javascript: React",
-    "2022 - Personal"
+    "Ongoing - Personal"
 );
 
 const reading = new Project(
@@ -88,6 +91,7 @@ const reading = new Project(
     "https://reyaly-books.herokuapp.com/",
     "https://github.com/anclark686/reyaly-books",
     "Book Tracker",
+    // eslint-disable-next-line
     "Javascript: React, MySQL",
     "2022 - Personal"
 );
@@ -97,6 +101,7 @@ const travel = new Project(
     "https://reyalytravel.web.app/",
     "https://github.com/anclark686/travel_site",
     "Travel Photos Site",
+    // eslint-disable-next-line
     "Javascript: React, Firebase",
     "2022 - Personal"
 );
@@ -106,6 +111,7 @@ const instagram = new Project(
     "https://reyalygram.web.app/",
     "https://github.com/anclark686/instagram-clone",
     "Instagram Clone",
+    // eslint-disable-next-line
     "Javascript: React, Firebase",
     "2022 - Personal"
 );
@@ -115,6 +121,7 @@ const blackBook = new Project(
     "https://reyaly-black-book.netlify.app/",
     "https://github.com/anclark686/Reyaly-Black-Book",
     "Online Black Book",
+    // eslint-disable-next-line
     "Javascript: React, MongoDB",
     "2022 - Personal"
 );
@@ -212,10 +219,10 @@ const finance = new Project(
 let projects = [
     portfolio,
     resume, 
-    reading,
-    travel,
     recipes,
     finance,
+    reading,
+    travel,
     inspo,
     instagram,
     adaTask,
