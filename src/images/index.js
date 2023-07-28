@@ -19,6 +19,8 @@ const IMAGES = {
   pic18: require('./new-weather.png'),
   pic19: require('./recipes.png'),
   pic20: require('./ada-task-list.png'),
+  pic21: require('./inspo-board.png'),
+  pic22: require('./financial-planner.png'),
 }
 
 export default IMAGES;

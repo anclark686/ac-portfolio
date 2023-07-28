@@ -17,7 +17,7 @@ const resume = new Project(
     "https://github.com/anclark686/reyaly_resume",
     "Resume",
     "Python: Django, MySQL",
-    "2022"
+    "2022 - Personal"
 );
 
 const calc = new Project(
@@ -26,7 +26,7 @@ const calc = new Project(
     "https://github.com/anclark686/new-calculator",
     "Calculator",
     "Javascript: React, Electron",
-    "2022"
+    "2022 - Personal"
 );
 
 const toDo = new Project(
@@ -35,7 +35,7 @@ const toDo = new Project(
     "https://github.com/anclark686/django-todolist",
     "ToDo List",
     "Python: Django, SQLite",
-    "2022"
+    "2022 - Personal"
 );
 
 const blog = new Project(
@@ -44,7 +44,7 @@ const blog = new Project(
     "https://github.com/anclark686/blog2",
     "Blog",
     "Python: Flask, SQLite",
-    "2022"
+    "2022 - Personal"
 );
 
 const pne = new Project(
@@ -53,7 +53,7 @@ const pne = new Project(
     "#",
     "Project Editor",
     "Python: tkinter*",
-    "2021"
+    "2021 - Company: Forsta"
 );
 
 const gm = new Project(
@@ -62,7 +62,7 @@ const gm = new Project(
     "#",
     "GridMaster*",
     "VBA",
-    "2022"
+    "2022 - Company: Forsta"
 );
 
 const weather = new Project(
@@ -71,7 +71,7 @@ const weather = new Project(
     "https://github.com/anclark686/weatherapp",
     "Weather App",
     "Javascript: React, Electron, External APIs",
-    "2022"
+    "2022 - Personal"
 );
 
 const portfolio = new Project(
@@ -80,7 +80,7 @@ const portfolio = new Project(
     "https://github.com/anclark686/ac-portfolio",
     "Portfolio",
     "Javascript: React",
-    "2022"
+    "2022 - Personal"
 );
 
 const reading = new Project(
@@ -89,7 +89,7 @@ const reading = new Project(
     "https://github.com/anclark686/reyaly-books",
     "Book Tracker",
     "Javascript: React, MySQL",
-    "2022"
+    "2022 - Personal"
 );
 
 const travel = new Project(
@@ -98,7 +98,7 @@ const travel = new Project(
     "https://github.com/anclark686/travel_site",
     "Travel Photos Site",
     "Javascript: React, Firebase",
-    "2022"
+    "2022 - Personal"
 );
 
 const instagram = new Project(
@@ -107,7 +107,7 @@ const instagram = new Project(
     "https://github.com/anclark686/instagram-clone",
     "Instagram Clone",
     "Javascript: React, Firebase",
-    "2022"
+    "2022 - Personal"
 );
 
 const blackBook = new Project(
@@ -116,7 +116,7 @@ const blackBook = new Project(
     "https://github.com/anclark686/Reyaly-Black-Book",
     "Online Black Book",
     "Javascript: React, MongoDB",
-    "2022"
+    "2022 - Personal"
 );
 
 const tech = new Project(
@@ -125,7 +125,7 @@ const tech = new Project(
     "https://github.com/anclark686/tech-fansite",
     "Tech Fansite",
     "HTML, CSS, Vanilla Javascript",
-    "2023"
+    "2023 - Ada Developers Academy"
 );
 
 const banana = new Project(
@@ -134,7 +134,7 @@ const banana = new Project(
     "https://github.com/anclark686/group-fansite",
     "Banana Fansite",
     "HTML, CSS",
-    "2023"
+    "2023 - Ada Developers Academy"
 );
 
 const newGM = new Project(
@@ -143,7 +143,7 @@ const newGM = new Project(
     "#",
     "Updated Gridmaster*",
     "Python: Flask, Javascript: React & Electron",
-    "2023"
+    "2023 - Company: Forsta"
 );
 
 const renoApp = new Project(
@@ -152,7 +152,7 @@ const renoApp = new Project(
     "#",
     "Release Notes App*",
     "Python: Flask, Javascript: React",
-    "2023"
+    "2023 - Company: Forsta"
 );
 
 const blogRuby = new Project(
@@ -161,7 +161,7 @@ const blogRuby = new Project(
     "https://github.com/anclark686/ruby-blog",
     "Ruby Blog",
     "Ruby: Rails, MySQL",
-    "2023"
+    "2023 - Personal"
 );
 
 const weatherNew = new Project(
@@ -170,7 +170,7 @@ const weatherNew = new Project(
     "https://github.com/anclark686/weather-report",
     "New Weather App",
     "Vanilla Javascript, External APIs",
-    "2023"
+    "2023 - Ada Developers Academy"
 );
 
 const recipes = new Project(
@@ -179,7 +179,7 @@ const recipes = new Project(
     "https://github.com/anclark686/reyaly-recipes-frontend",
     "Recipe Site",
     "Ruby: Rails, Javascript: Vue, MySQL",
-    "2023"
+    "2023 - Personal"
 );
 
 const adaTask = new Project(
@@ -188,9 +188,26 @@ const adaTask = new Project(
     "https://github.com/anclark686/task-list-front-end",
     "Ada Task List",
     "Python: Flask, Javascript: React, PostgreSQL",
-    "2023"
+    "2023 - Ada Developers Academy"
 );
 
+const inspo = new Project(
+    IMAGES.pic21,
+    "https://inspiration-board-ua68.onrender.com/",
+    "https://github.com/anclark686/front-end-inspiration-board",
+    "Inspiration Board",
+    "Python: Flask, Javascript: React, PostgreSQL",
+    "2023 - Ada Developers Academy"
+);
+
+const finance = new Project(
+    IMAGES.pic22,
+    "https://main.d1r7v6lmapahca.amplifyapp.com/",
+    "https://github.com/anclark686/Reyaly-financial-planner-frontend",
+    "Financial Planner",
+    "Ruby: Rails, Javascript: Vue, MongoDB",
+    "2023 - Ada Developers Academy"
+);
 
 let projects = [
     portfolio,
@@ -198,6 +215,8 @@ let projects = [
     reading,
     travel,
     recipes,
+    finance,
+    inspo,
     instagram,
     adaTask,
     toDo,
