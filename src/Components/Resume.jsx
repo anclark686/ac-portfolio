@@ -21,7 +21,7 @@ const Resume = () => {
       <br />
       <a
         className="resume-download"
-        href="https://www.ancportfolio.link/download/A_Clark_Resume.pdf"
+        href="https://ancportfoliobucket.s3.amazonaws.com/A_Clark_Resume.pdf"
         download="A_Clark_Resume.pdf"
       >
         Download PDF
