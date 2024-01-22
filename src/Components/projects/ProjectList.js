@@ -1,4 +1,4 @@
-import IMAGES from "../images/index"
+import IMAGES from "../../images/index"
 
 class Project {
     constructor(image, link, ghLink, title, language, date) {
@@ -17,7 +17,7 @@ const resume = new Project(
     "https://github.com/anclark686/reyaly_resume",
     "Resume",
     "Python: Django, MySQL",
-    "Ongoing - Personal"
+    "2022 - Personal"
 );
 
 const calc = new Project(
@@ -92,7 +92,7 @@ const reading = new Project(
     "https://github.com/anclark686/reyaly-books",
     "Book Tracker",
     // eslint-disable-next-line
-    "Javascript: React, MySQL",
+    "Javascript: React & Express, MySQL",
     "2022 - Personal"
 );
 
@@ -213,14 +213,14 @@ const finance = new Project(
     "https://github.com/anclark686/Reyaly-financial-planner-frontend",
     "Financial Planner",
     "Ruby: Rails, Javascript: Vue, MongoDB",
-    "2023 - Ada Developers Academy"
+    "2023 - Ada Developers Academy: Capstone"
 );
 
 let projects = [
     portfolio,
-    resume, 
-    recipes,
     finance,
+    resume,
+    recipes,
     reading,
     travel,
     inspo,

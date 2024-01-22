@@ -1,19 +1,25 @@
 import React from "react";
-// import { Form, Col, Button, Card } from 'react-bootstrap';
 import FormPage from "./contactEmail";
+import { Link } from "react-router-dom";
 
-
-  
 const Contact = () => {
   return (
-    <div>
+    <div className="contact-content main">
       <h1 className="header">Contact Me</h1>
-      <a href="https://www.linkedin.com/in/anclark686/" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a
+        className="outside-link"
+        href="https://www.linkedin.com/in/anclark686/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        LinkedIn
+      </a>
       <br />
 
       <FormPage />
+      <Link to="/" className="link-home">Back to Home</Link>
     </div>
   );
 };
-  
+
 export default Contact;

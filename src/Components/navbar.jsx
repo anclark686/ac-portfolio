@@ -1,44 +1,38 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { DropdownButton, ButtonGroup, Dropdown } from 'react-bootstrap';
+
+const about = require("../images/information.png");
+const projects = require("../images/web-development.png");
+const contact = require("../images/email.png");
+const resume = require("../images/resume_icon.png");
 
 function Navbar() {
   return (
     <div>
-      <>
-        {['Info'].map(
-          (variant) => (
-            <DropdownButton
-              as={ButtonGroup}
-              key={variant}
-              id="drop-down-nav"
-              variant={variant.toLowerCase()}
-              title="Menu"
-              menuVariant="dark"
-            >
-              <Dropdown.Item as={Link} to="/" eventKey="home" className="NavButtons">
-                <div>Home</div>
-              </Dropdown.Item>
-              <Dropdown.Item as={Link} to="/about" eventKey="about" className="NavButtons">
-                <div>About</div>
-              </Dropdown.Item>
-              <Dropdown.Item as={Link} to="/projects" eventKey="projects" className="NavButtons">
-                <div>Projects</div>
-              </Dropdown.Item>
-              <Dropdown.Item as={Link} to="/contact" eventKey="contact" className="NavButtons">
-                <div>Contact</div>
-              </Dropdown.Item>
-              <Dropdown.Divider />
-              <Dropdown.Item eventKey="resume" className="NavButtons" href="https://reyaly-resume.herokuapp.com/">
-                Resume
-              </Dropdown.Item>
-            </DropdownButton>
-          ),
-        )}
-      </>
+      <nav className="navbar">
+        <div className="nav-links">
+          <Link to="/about" className="link-group">
+            <img src={about} alt="About" className="nav-pic" />
+            <h3 className="nav-text">About</h3>
+          </Link>
 
+          <Link to="/projects" className="link-group">
+            <img src={projects} alt="Projects" className="nav-pic" />
+            <h3 className="nav-text">Projects</h3>
+          </Link>
+
+          <Link to="/resume" className="link-group">
+            <img src={resume} alt="Resume" className="nav-pic" />
+            <h3 className="nav-text">Resume</h3>
+          </Link>
+
+          <Link to="/contact" className="link-group">
+            <img src={contact} alt="Contact" className="nav-pic" />
+            <h3 className="nav-text">Contact</h3>
+          </Link>
+        </div>
+      </nav>
     </div>
-    
   );
 }
 

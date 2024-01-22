@@ -4,24 +4,96 @@
   box-sizing: border-box;
 }
 
-a {
-  font-weight: bold;
-  font-size: 25px;
-  color: #31d2f2 !important;
-  text-decoration: none;
-  font-weight: 700 !important;
+:root {
+  text-align: center;
+  --dark-blue: #23232e;
+  --nav-bg-secondary: #141418;
+  --sky-blue: #31d2f2;
+}
+
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sky-blue);
 }
 
 .fullApp {
   font-family: "Quicksand", sans-serif;
-  text-align: center;
+}
+
+a {
+  font-weight: bold;
+  font-size: 25px;
+  color: var(--sky-blue);
+  text-decoration: none;
+  font-weight: 700 !important;
+}
+
+.navbar {
+  background: var(--sky-blue);
+  height: 5rem;
+  width: 100vw;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.519);
+  position: fixed;
+  transition: 200ms ease;
+}
+
+.navbar:hover {
+  height: 10rem;
+}
+
+.nav-links {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.nav-links a {
+  color: var(--dark-blue);
+}
+
+.link-group {
+  padding: 10px;
+  width: 150px;
+}
+
+.link-group:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.nav-pic {
+  width: 50px;
+}
+
+.nav-text {
+  display: none;
+}
+
+.navbar:hover .nav-text {
+  display: block;
+}
+
+.main {
+  margin-top: 5rem;
 }
 
 .header {
   font-family: "Sacramento", cursive;
   font-size: 90px;
   text-align: center;
-  padding: 2vw;
+  background: var(--sky-blue);
+  width: fit-content;
+  margin: 20px auto 50px auto;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.519);
 }
 
 .container {
@@ -45,7 +117,7 @@ a {
   border: none;
 
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
-  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.519);
 }
 
 .project:hover {
@@ -62,8 +134,9 @@ a {
   flex-wrap: nowrap;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid black;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.519);
   border-radius: 7px;;
+  margin-bottom: 50px;
 }
 
 .modalButtons {
@@ -88,6 +161,14 @@ a {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+.title-container {
+  background: radial-gradient(circle, var(--sky-blue) 65%, rgba(84,84,110,1) 100%);
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.519);
+}
+
 #alycia {
   font-family: "Sacramento", cursive;
   font-size: 15vw;
@@ -105,17 +186,52 @@ a {
   flex-wrap: wrap;
 }
 
+.link-row a {
+  color: var(--sky-blue);
+}
+
 .home-link {
-  border: 2px solid black;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.519);
   width: 400px;
-  height: 200px;
+  height: 280px;
   border-radius: 5px;
   margin: 10px;
 }
 
 .tech-pic {
-  width: 100px;
-  margin: 20px;
+  width: 200px;
+  margin: 18px;
+}
+
+.carousel {
+  width: 300px;
+  margin: 20px auto 10px auto;
+}
+
+.icon-carousel-container {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  
+  background-color: var(--dark-blue);
+}
+
+.carousel-icon {
+  margin-top: 10px;
+  font-size: 9rem;
+  color: var(--sky-blue);
+}
+
+.carousel-text {
+  color: white;
+}
+
+.carousel-pic {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 300px;
+  border-radius: 5px;
+  height: 200px;
 }
 
 .subheader {
@@ -137,7 +253,7 @@ a {
 }
 
 .tech-item {
-  border: 2px solid black;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.519);
   border-radius: 5px;
   padding: 10px;
   margin: 10px 5px;
@@ -146,7 +262,7 @@ a {
 
 .tech-icon {
   font-size: 7rem;
-  color: #31d2f2;
+  color: var(--sky-blue);
 }
 
 #projectButton {
@@ -157,8 +273,124 @@ a {
   margin-top: 10px;
 }
 
+
+.outside-link, .resume-download {
+  color: var(--sky-blue);
+}
+
+.link-home {
+  color: var(--sky-blue);
+  margin-bottom: 50px;
+}
+
+.resume-subheader {
+  font-family: "Sacramento", cursive;
+  font-size: 50px;
+  margin: 20px;
+}
+
+.experience-card {
+  width: 75%;
+  margin: 20px auto;
+}
+
+.experience-card-header, .education-card-header, .skills-card-header {
+  background-color: var(--sky-blue) !important;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.education-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.education-card {
+  width: 275px;
+  margin: 0 20px 20px 20px;
+}
+
+.skills-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills-card {
+  text-align: left;
+  width: 325px;
+  margin: 0 20px 20px 20px;
+}
+
+.skills-card ul {
+  margin-bottom: 1px;
+}
+
+.minor-skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.disclaimer {
+  margin: 20px;
+}
+
 @media only screen and (max-width: 600px) {
+  .header {
+    font-size: 70px;
+  }
+
   .contactCard {
     width: 75%;
+  }
+
+  .link-row {
+    width: 75%;
+    margin: 2rem auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .home-link {
+    width: 100%;
+    margin: 5px;
+    height: 200px;
+  }
+
+  .tech-pic {
+    width: 45%;
+  }
+
+  .carousel {
+    width: 75%;
+    height: 9.5rem;
+    margin: 20px auto 10px auto;
+  }
+  
+  .icon-carousel-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+    background-color: var(--dark-blue);
+  }
+  
+  .carousel-icon {
+    margin-top: 10px;
+    font-size: 5rem;
+    color: var(--sky-blue);
+  }
+  
+  .carousel-text {
+    color: white;
+  }
+  
+  .carousel-pic {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 150px;
   }
 }
