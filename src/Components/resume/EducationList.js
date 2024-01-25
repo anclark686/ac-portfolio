@@ -12,18 +12,12 @@ const odu = new Education(
   "May 10, 2014",
 )
 
-const psu = new Education(
-  "Penn State University",
-  "Graduate Level Coursework in Statistics",
-  "Dec. 31, 2015",
-)
-
 const ada = new Education(
   "Ada Developers Academy",
   "Software Development Bootcamp",
   "Jan. 24, 2024",
 )
 
-let education = [odu, psu, ada]
+let education = [odu, ada]
 
 export default education;
