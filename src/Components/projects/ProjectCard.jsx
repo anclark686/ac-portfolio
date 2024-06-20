@@ -24,10 +24,14 @@ const ProjectCard = ({ project }) => {
         <h3>{project.title}</h3>
         <h4>{project.language}</h4>
         <p>{project.date}</p>
-        {project.link === "#" ? null : (
-          <Button id="projectButton" variant="info" onClick={handleShow}>
-            View More
-          </Button>
+        {project.link === "#" ? (
+          <div className="spacer"></div>
+        ) : (
+          <div className="spacer">
+            <Button id="projectButton" variant="info" onClick={handleShow}>
+              View More
+            </Button>
+          </div>
         )}
 
         <Modal show={show} onHide={handleClose}>

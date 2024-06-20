@@ -20,7 +20,7 @@ const SkillsCards = () => {
               <ul>
                 <li>React</li>
                 <li>Vue</li>
-                <li>Angular 2</li>
+                <li>Angular 2 & AngularJS</li>
                 <li>Typescript</li>
               </ul>
               Ruby
@@ -36,7 +36,7 @@ const SkillsCards = () => {
               Databases:
               <ul>
                 <li>SQL: MySQL, PostgreSQL</li>
-                <li>NoSQL: MongoDB, Firebase</li>
+                <li>NoSQL: MongoDB, Firestore</li>
               </ul>
             </Card.Text>
           </Card.Body>

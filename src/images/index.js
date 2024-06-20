@@ -21,6 +21,9 @@ const IMAGES = {
   pic20: require('./ada-task-list.png'),
   pic21: require('./inspo-board.png'),
   pic22: require('./financial-planner.png'),
+  pic23: require('./project_notes.png'),
+  pic24: require('./project_validator.png'),
+  pic25: require('./work_tracker.png'),
 }
 
 export default IMAGES;

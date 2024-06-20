@@ -7,11 +7,18 @@ class Job {
   }
 }
 
+const forstaDev1 = new Job(
+  "Forsta",
+  "Software Engineer II",
+  "01/2024 - Present",
+  "Develop new applications and maintain existing applications for a large legacy codebase used in the survey application Decipher. Technologies used include Python, various Javascript libraries and frameworks including React, Vue and AngularJS as well as AWS."
+)
+
 const qa = new Job(
   "Forsta",
   "QA Engineer",
-  "07/2022 - Present",
-  "Tests new and old programs to ensure functionality, and desired effect. Coordinate with developers to ensure that new programs do not interfere with existing architecture, and work as expected. Deploy new code on a bi-weekly basis into production. Worked with automated testing libraries such as Cypress to create automated tests for the user interface of our product. Developing a new program to create bi-weekly release reports, reducing the amount of human intervention by automating pulling of data. Interning to become a software developer by picking up small bug and feature cards with supervision."
+  "07/2022 - 01/2024",
+  "Tested new and old programs to ensure functionality, and desired effect. Coordinated with developers to ensure that new programs did not interfere with existing architecture, and worked as expected. Deployed new code on a bi-weekly basis into production. Worked with automated testing libraries such as Cypress to create automated tests for the user interface of our product. Developed a new program to create bi-weekly release reports, reducing the amount of human intervention by automating pulling of data. Interned to become a software developer by picking up increasingly difficult bug and feature cards with supervision."
 )
 
 const rsr = new Job(
@@ -50,6 +57,7 @@ const csrFV = new Job(
 // )
 
 let jobs = [
+  forstaDev1,
   qa,
   rsr,
   srProjCoord,

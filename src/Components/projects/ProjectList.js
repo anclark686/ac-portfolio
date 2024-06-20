@@ -1,13 +1,14 @@
 import IMAGES from "../../images/index"
 
 class Project {
-    constructor(image, link, ghLink, title, language, date) {
+    constructor(image, link, ghLink, title, language, date, tags) {
         this.image = image;
         this.link = link;
         this.ghLink = ghLink;
         this.title = title;
         this.language = language;
         this.date = date;
+        this.tags = tags;
     }
 }
 
@@ -16,8 +17,9 @@ const resume = new Project(
     "https://reyaly-resume.herokuapp.com/",
     "https://github.com/anclark686/reyaly_resume",
     "Resume",
-    "Python: Django, MySQL",
-    "2022 - Personal"
+    "Python: Django - MySQL",
+    "2022 - Personal",
+    ["python", "django", "mysql", "year-2022"]
 );
 
 const calc = new Project(
@@ -26,8 +28,9 @@ const calc = new Project(
     "https://github.com/anclark686/new-calculator",
     "Calculator",
     // eslint-disable-next-line
-    "Javascript: React, Electron",
-    "2022 - Personal"
+    "JavaScript: React, Electron",
+    "2022 - Personal",
+    ["javascript", "react", "electron", "year-2022"]
 );
 
 const toDo = new Project(
@@ -35,8 +38,9 @@ const toDo = new Project(
     "https://reayaly-todo.herokuapp.com/",
     "https://github.com/anclark686/django-todolist",
     "ToDo List",
-    "Python: Django, SQLite",
-    "2022 - Personal"
+    "Python: Django - SQLite",
+    "2022 - Personal",
+    ["python", "django", "sqlite", "year-2022"]
 );
 
 const blog = new Project(
@@ -44,17 +48,19 @@ const blog = new Project(
     "https://reyaly-blog.herokuapp.com/",
     "https://github.com/anclark686/blog2",
     "Blog",
-    "Python: Flask, SQLite",
-    "2022 - Personal"
+    "Python: Flask - SQLite",
+    "2022 - Personal",
+    ["python", "flask", "sqlite", "year-2022"]
 );
 
 const pne = new Project(
     IMAGES.pic5,
     "#",
     "#",
-    "Project Editor",
-    "Python: tkinter*",
-    "2021 - Company: Forsta"
+    "Project Editor*",
+    "Python: tkinter",
+    "2021 - Company: Forsta",
+    ["python", "tkinter", "year-2021"]
 );
 
 const gm = new Project(
@@ -63,7 +69,8 @@ const gm = new Project(
     "#",
     "GridMaster*",
     "VBA",
-    "2022 - Company: Forsta"
+    "2022 - Company: Forsta",
+    ["vba", "year-2022"]
 );
 
 const weather = new Project(
@@ -72,8 +79,9 @@ const weather = new Project(
     "https://github.com/anclark686/weatherapp",
     "Weather App",
     // eslint-disable-next-line
-    "Javascript: React, Electron, External APIs",
-    "2022 - Personal"
+    "JavaScript: React, Electron - External APIs",
+    "2022 - Personal",
+    ["javascript", "react", "electron", "year-2022"]
 );
 
 const portfolio = new Project(
@@ -82,8 +90,9 @@ const portfolio = new Project(
     "https://github.com/anclark686/ac-portfolio",
     "Portfolio",
     // eslint-disable-next-line
-    "Javascript: React",
-    "Ongoing - Personal"
+    "JavaScript: React",
+    "Ongoing - Personal",
+    ["javascript", "react", "year-2022", "year-2023", "year-2024"]
 );
 
 const reading = new Project(
@@ -92,8 +101,9 @@ const reading = new Project(
     "https://github.com/anclark686/reyaly-books",
     "Book Tracker",
     // eslint-disable-next-line
-    "Javascript: React & Express, MySQL",
-    "2022 - Personal"
+    "JavaScript: Node, Express, React - MySQL",
+    "2022 - Personal",
+    ["javascript", "react", "node", "express", "year-2022"]
 );
 
 const travel = new Project(
@@ -102,8 +112,9 @@ const travel = new Project(
     "https://github.com/anclark686/travel_site",
     "Travel Photos Site",
     // eslint-disable-next-line
-    "Javascript: React, Firebase",
-    "2022 - Personal"
+    "JavaScript: React - Firestore",
+    "2022 - Personal",
+    ["javascript", "react", "firestore", "year-2022"]
 );
 
 const instagram = new Project(
@@ -112,8 +123,9 @@ const instagram = new Project(
     "https://github.com/anclark686/instagram-clone",
     "Instagram Clone",
     // eslint-disable-next-line
-    "Javascript: React, Firebase",
-    "2022 - Personal"
+    "JavaScript: React - Firestore",
+    "2022 - Personal",
+    ["javascript", "react", "firestore", "year-2022"]
 );
 
 const blackBook = new Project(
@@ -122,8 +134,9 @@ const blackBook = new Project(
     "https://github.com/anclark686/Reyaly-Black-Book",
     "Online Black Book",
     // eslint-disable-next-line
-    "Javascript: React, MongoDB",
-    "2022 - Personal"
+    "JavaScript: React - MongoDB",
+    "2022 - Personal",
+    ["javascript", "react", "mongodb", "year-2022"]
 );
 
 const tech = new Project(
@@ -131,8 +144,9 @@ const tech = new Project(
     "https://tech-fansite.netlify.app/",
     "https://github.com/anclark686/tech-fansite",
     "Tech Fansite",
-    "HTML, CSS, Vanilla Javascript",
-    "2023 - Ada Developers Academy"
+    "HTML - CSS - Vanilla JavaScript",
+    "2023 - Ada Developers Academy",
+    ["javascript", "html", "css", "year-2023"]
 );
 
 const banana = new Project(
@@ -140,8 +154,9 @@ const banana = new Project(
     "https://anclark686.github.io/group-fansite/",
     "https://github.com/anclark686/group-fansite",
     "Banana Fansite",
-    "HTML, CSS",
-    "2023 - Ada Developers Academy"
+    "HTML - CSS",
+    "2023 - Ada Developers Academy",
+    ["html", "css", "year-2023"]
 );
 
 const newGM = new Project(
@@ -149,8 +164,9 @@ const newGM = new Project(
     "#",
     "#",
     "Updated Gridmaster*",
-    "Python: Flask, Javascript: React & Electron",
-    "2023 - Company: Forsta"
+    "Python: Flask - JavaScript: React, Electron",
+    "2023 - Company: Forsta",
+    ["python", "flask", "javascript", "react", "electron", "year-2023"]
 );
 
 const renoApp = new Project(
@@ -158,8 +174,9 @@ const renoApp = new Project(
     "#",
     "#",
     "Release Notes App*",
-    "Python: Flask, Javascript: React",
-    "2023 - Company: Forsta"
+    "Python: Flask - JavaScript: React",
+    "2023 - Company: Forsta",
+    ["python", "flask", "javascript", "react", "year-2023"]
 );
 
 const blogRuby = new Project(
@@ -167,8 +184,9 @@ const blogRuby = new Project(
     "https://reyaly-blog-ruby.herokuapp.com/",
     "https://github.com/anclark686/ruby-blog",
     "Ruby Blog",
-    "Ruby: Rails, MySQL",
-    "2023 - Personal"
+    "Ruby: Rails - MySQL",
+    "2023 - Personal",
+    ["ruby", "rails", "mysql", "year-2023"]
 );
 
 const weatherNew = new Project(
@@ -176,8 +194,9 @@ const weatherNew = new Project(
     "https://anclark686.github.io/weather-report/",
     "https://github.com/anclark686/weather-report",
     "New Weather App",
-    "Vanilla Javascript, External APIs",
-    "2023 - Ada Developers Academy"
+    "Vanilla JavaScript - External APIs",
+    "2023 - Ada Developers Academy",
+    ["javascript", "html", "css", "year-2023"]
 );
 
 const recipes = new Project(
@@ -185,8 +204,9 @@ const recipes = new Project(
     "https://main.d3h1w2pu1ejnii.amplifyapp.com/",
     "https://github.com/anclark686/reyaly-recipes-frontend",
     "Recipe Site",
-    "Ruby: Rails, Javascript: Vue, MySQL",
-    "2023 - Personal"
+    "Ruby: Rails - JavaScript: Vue - MySQL",
+    "2023 - Personal",
+    ["ruby", "rails", "javascript", "vue", "mysql", "year-2023"]
 );
 
 const adaTask = new Project(
@@ -194,8 +214,9 @@ const adaTask = new Project(
     "https://anc-task-list-frontend.onrender.com/",
     "https://github.com/anclark686/task-list-front-end",
     "Ada Task List",
-    "Python: Flask, Javascript: React, PostgreSQL",
-    "2023 - Ada Developers Academy"
+    "Python: Flask - JavaScript: React - PostgreSQL",
+    "2023 - Ada Developers Academy",
+    ["python", "flask", "javascript", "react", "postgresql", "year-2023"]
 );
 
 const inspo = new Project(
@@ -203,17 +224,51 @@ const inspo = new Project(
     "https://inspiration-board-ua68.onrender.com/",
     "https://github.com/anclark686/front-end-inspiration-board",
     "Inspiration Board",
-    "Python: Flask, Javascript: React, PostgreSQL",
-    "2023 - Ada Developers Academy"
+    "Python: Flask - JavaScript: React - PostgreSQL",
+    "2023 - Ada Developers Academy",
+    ["python", "flask", "javascript", "react", "postgresql", "year-2023"]
 );
 
 const finance = new Project(
     IMAGES.pic22,
-    "https://main.d1r7v6lmapahca.amplifyapp.com/",
+    "https://www.reyaly-financial-planner.link/",
     "https://github.com/anclark686/Reyaly-financial-planner-frontend",
     "Financial Planner",
-    "Ruby: Rails, Javascript: Vue, MongoDB",
-    "2023 - Ada Developers Academy: Capstone"
+    "Ruby: Rails - JavaScript: Vue - MongoDB",
+    "2023 - Ada Developers Academy: Capstone",
+    ["ruby", "rails", "javascript", "vue", "mongodb", "year-2023"]
+);
+
+const pnev2 = new Project(
+    IMAGES.pic23,
+    "#",
+    "#",
+    "Project Notes Editor*",
+    "Python: tkinter",
+    "2024 - Company: Forsta",
+    ["python", "tkinter", "year-2024"]
+);
+
+const workTracker = new Project(
+    IMAGES.pic25,
+    "#",
+    "#",
+    "Jira + Gitlab Work Tracker*",
+    // eslint-disable-next-line
+    "JavaScript: Node, Express, Vue, Electron",
+    "2024 - Company: Forsta",
+    ["javascript", "node", "express", "vue", "electron", "year-2024"]
+);
+
+const validator = new Project(
+    IMAGES.pic24,
+    "#",
+    "#",
+    "Project Validator*",
+    // eslint-disable-next-line
+    "JavaScript: React - Chrome Extension",
+    "2024 - Company: Forsta",
+    ["javascript", "react", "chrome", "year-2024"]
 );
 
 let projects = [
@@ -235,6 +290,9 @@ let projects = [
     calc,
     banana,
     tech,
+    pnev2,
+    workTracker,
+    validator,
     newGM,
     renoApp,
     gm,
