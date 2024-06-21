@@ -17,7 +17,9 @@ const Contact = () => {
       <br />
 
       <FormPage />
-      <Link to="/" className="link-home">Back to Home</Link>
+      <Link to="/" className="link-home">
+        Back to Home
+      </Link>
     </div>
   );
 };

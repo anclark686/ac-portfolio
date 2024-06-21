@@ -6,7 +6,6 @@ const TechCarousel = () => {
     <Carousel className="carousel">
       {techStack.map((tech, i) => (
         <Carousel.Item key={i} className="icon-carousel-container">
-
           <i className={`${tech.iconClass} carousel-icon`}></i>
           <p className="carousel-text">{tech.description}</p>
         </Carousel.Item>

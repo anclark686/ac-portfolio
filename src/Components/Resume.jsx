@@ -22,7 +22,8 @@ const Resume = () => {
       <a
         className="resume-download"
         href="https://ancportfoliobucket.s3.amazonaws.com/A_Clark_Resume_2024.pdf"
-        target="_blank" rel="noopener noreferrer"
+        target="_blank"
+        rel="noopener noreferrer"
         download
       >
         Download PDF
@@ -42,7 +43,9 @@ const Resume = () => {
           <EducationCard key={i} education={school} />
         ))}
       </div>
-      <Link to="/" className="link-home">Back to Home</Link>
+      <Link to="/" className="link-home">
+        Back to Home
+      </Link>
     </div>
   );
 };

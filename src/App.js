@@ -9,11 +9,8 @@ import { React } from "react";
 //import { Tabs, Tab } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
-
 const App = () => {
   return (
-
     <div className="fullApp">
       <BrowserRouter>
         <Routes>
@@ -26,7 +23,6 @@ const App = () => {
           </Route>
         </Routes>
       </BrowserRouter>
-
     </div>
   );
 };
