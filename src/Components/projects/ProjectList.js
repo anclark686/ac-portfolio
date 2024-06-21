@@ -35,7 +35,7 @@ const calc = new Project(
 
 const toDo = new Project(
     IMAGES.pic3,
-    "https://reayaly-todo.herokuapp.com/",
+    "https://reyaly-todo-225a1c591959.herokuapp.com/",
     "https://github.com/anclark686/django-todolist",
     "ToDo List",
     "Python: Django - SQLite",
@@ -103,7 +103,7 @@ const reading = new Project(
     // eslint-disable-next-line
     "JavaScript: Node, Express, React - MySQL",
     "2022 - Personal",
-    ["javascript", "react", "node", "express", "year-2022"]
+    ["javascript", "react", "node", "express", "mysql", "year-2022"]
 );
 
 const travel = new Project(
@@ -134,9 +134,9 @@ const blackBook = new Project(
     "https://github.com/anclark686/Reyaly-Black-Book",
     "Online Black Book",
     // eslint-disable-next-line
-    "JavaScript: React - MongoDB",
+    "JavaScript: Node, Express, React - MongoDB",
     "2022 - Personal",
-    ["javascript", "react", "mongodb", "year-2022"]
+    ["javascript", "node", "express", "react", "mongodb", "year-2022"]
 );
 
 const tech = new Project(
