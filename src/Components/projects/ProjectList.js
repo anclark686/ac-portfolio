@@ -12,15 +12,15 @@ class Project {
     }
 }
 
-const resume = new Project(
-    IMAGES.pic1,
-    "https://reyaly-resume.herokuapp.com/",
-    "https://github.com/anclark686/reyaly_resume",
-    "Resume",
-    "Python: Django - MySQL",
-    "2022 - Personal",
-    ["python", "django", "mysql", "year-2022"]
-);
+// const resume = new Project(
+//     IMAGES.pic1,
+//     "https://reyaly-resume.herokuapp.com/",
+//     "https://github.com/anclark686/reyaly_resume",
+//     "Resume",
+//     "Python: Django - MySQL",
+//     "2022 - Personal",
+//     ["python", "django", "mysql", "year-2022"]
+// );
 
 const calc = new Project(
     IMAGES.pic2,
@@ -149,15 +149,15 @@ const tech = new Project(
     ["javascript", "html", "css", "year-2023"]
 );
 
-const banana = new Project(
-    IMAGES.pic14,
-    "https://anclark686.github.io/group-fansite/",
-    "https://github.com/anclark686/group-fansite",
-    "Banana Fansite",
-    "HTML - CSS",
-    "2023 - Ada Developers Academy",
-    ["html", "css", "year-2023"]
-);
+// const banana = new Project(
+//     IMAGES.pic14,
+//     "https://anclark686.github.io/group-fansite/",
+//     "https://github.com/anclark686/group-fansite",
+//     "Banana Fansite",
+//     "HTML - CSS",
+//     "2023 - Ada Developers Academy",
+//     ["html", "css", "year-2023"]
+// );
 
 const newGM = new Project(
     IMAGES.pic15,
@@ -274,7 +274,6 @@ const validator = new Project(
 let projects = [
     portfolio,
     finance,
-    resume,
     recipes,
     reading,
     travel,
@@ -288,7 +287,6 @@ let projects = [
     weather,
     blackBook,
     calc,
-    banana,
     tech,
     pnev2,
     workTracker,
