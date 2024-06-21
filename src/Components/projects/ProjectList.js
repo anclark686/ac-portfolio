@@ -211,7 +211,7 @@ const recipes = new Project(
 
 const adaTask = new Project(
     IMAGES.pic20,
-    "https://anc-task-list-frontend.onrender.com/",
+    "https://task-list-anc.onrender.com",
     "https://github.com/anclark686/task-list-front-end",
     "Ada Task List",
     "Python: Flask - JavaScript: React - PostgreSQL",
@@ -221,7 +221,7 @@ const adaTask = new Project(
 
 const inspo = new Project(
     IMAGES.pic21,
-    "https://inspiration-board-ua68.onrender.com/",
+    "https://inspiration-board-anc.onrender.com",
     "https://github.com/anclark686/front-end-inspiration-board",
     "Inspiration Board",
     "Python: Flask - JavaScript: React - PostgreSQL",
