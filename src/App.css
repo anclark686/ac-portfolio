@@ -146,16 +146,15 @@ a {
   margin-top: 50px;
 }
 
-.projectImage {
+.project-image {
   width: 450px;
   height: 300px;
   margin: 1.5rem;
-
+  object-fit: cover;
   position: relative;
   border-radius: 12px;
   overflow: hidden;
   border: none;
-
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.519);
 }
@@ -163,6 +162,10 @@ a {
 .project:hover {
   box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
   transform: scale(1.05, 1.05);
+}
+
+.project-container {
+  margin-bottom: 20px;
 }
 
 .spacer {
@@ -193,11 +196,11 @@ a {
   margin-bottom: 50px;
 }
 
-.modalButtons {
+.modal-buttons {
   margin: 10px auto;
 }
 
-.modalButton {
+.modal-button {
   margin: 0px 10px;
   width: 175px;
   height: 40px;
@@ -247,6 +250,9 @@ a {
 
 .link-row a {
   color: var(--sky-blue);
+  display: flex;
+  
+  align-items: center;
 }
 
 .home-link {
@@ -264,7 +270,7 @@ a {
 
 .carousel {
   width: 300px;
-  margin: 20px auto 10px auto;
+  margin: 5px auto 0 auto;
 }
 
 .icon-carousel-container {
@@ -390,10 +396,6 @@ a {
 .minor-skills {
   display: flex;
   flex-direction: column;
-}
-
-.disclaimer {
-  margin: 20px;
 }
 
 @media only screen and (max-width: 600px) {

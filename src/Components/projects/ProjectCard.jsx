@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
             onClick={() => console.log(`clicked ${project.title}`)}
             src={project.image}
             alt={project.title}
-            className="projectImage"
+            className="project-image"
           />
           <br />
         </Zoom>
@@ -25,7 +25,7 @@ const ProjectCard = ({ project }) => {
         <h4>{project.language}</h4>
         <p>{project.date}</p>
         {project.link === "#" ? null : (
-          <Button id="projectButton" variant="info" onClick={handleShow}>
+          <Button id="project-button" variant="info" onClick={handleShow}>
             View More
           </Button>
         )}
@@ -34,13 +34,13 @@ const ProjectCard = ({ project }) => {
           <Modal.Header closeButton>
             <Modal.Title>{project.title}</Modal.Title>
           </Modal.Header>
-          <Modal.Body className="modalButtons">
+          <Modal.Body className="modal-buttons">
             <Button
               variant="info"
               href={project.link}
               target="_blank"
               rel="noreferrer"
-              className="modalButton"
+              className="modal-button"
             >
               View Site
             </Button>
@@ -49,7 +49,7 @@ const ProjectCard = ({ project }) => {
               href={project.ghLink}
               target="_blank"
               rel="noreferrer"
-              className="modalButton"
+              className="modal-button"
             >
               View Code
             </Button>

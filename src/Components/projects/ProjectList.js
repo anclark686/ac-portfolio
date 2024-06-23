@@ -108,7 +108,7 @@ const reading = new Project(
 
 const travel = new Project(
   IMAGES.pic10,
-  "https://reyalytravel.web.app/",
+  "https://reyalytravel.firebaseapp.com/",
   "https://github.com/anclark686/travel_site",
   "Travel Photos Site",
   // eslint-disable-next-line
