@@ -142,6 +142,21 @@ a {
   margin-bottom: 0;
 }
 
+.project-accordion {
+  width: 100%;
+  text-align: center;
+}
+
+.accordion-button:focus {
+  border-color: white !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #31d2f2 !important; 
+  font-weight: bold;
+}
+
 .project-header {
   margin-top: 50px;
 }

@@ -17,8 +17,8 @@ const resume = new Project(
   "https://reyaly-resume.herokuapp.com/",
   "https://github.com/anclark686/reyaly_resume",
   "Resume",
-  "Python: Django - MySQL",
-  "2022 - Personal",
+  "Python: Django (Templates) - MySQL",
+  "Ongoing - Personal",
   ["python", "django", "mysql", "year-2022"],
 );
 
@@ -38,7 +38,7 @@ const toDo = new Project(
   "https://reyaly-todo-225a1c591959.herokuapp.com/",
   "https://github.com/anclark686/django-todolist",
   "ToDo List",
-  "Python: Django - SQLite",
+  "Python: Django (Templates) - SQLite",
   "2022 - Personal",
   ["python", "django", "sqlite", "year-2022"],
 );
@@ -48,7 +48,7 @@ const blog = new Project(
   "https://reyaly-blog.herokuapp.com/",
   "https://github.com/anclark686/blog2",
   "Python Blog",
-  "Python: Flask - SQLite",
+  "Python: Flask (Templates) - SQLite",
   "2022 - Personal",
   ["python", "flask", "sqlite", "year-2022"],
 );
@@ -184,7 +184,7 @@ const blogRuby = new Project(
   "https://reyaly-blog-ruby.herokuapp.com/",
   "https://github.com/anclark686/ruby-blog",
   "Ruby Blog",
-  "Ruby: Rails - MySQL",
+  "Ruby: Rails (Templates) - MySQL",
   "2023 - Personal",
   ["ruby", "rails", "mysql", "year-2023"],
 );
@@ -273,20 +273,25 @@ const validator = new Project(
 
 export const personalProjects = [
   portfolio,
-  recipes,
+  resume,
   reading,
   travel,
+  recipes,
+  blackBook,
+];
+
+export const beginnerProjects = [
   instagram,
   toDo,
   blog,
   blogRuby,
   weather,
-  blackBook,
   calc,
-  resume,
 ];
 
-export const adaProjects = [finance, inspo, adaTask, weatherNew, tech, banana];
+export const adaProjects = [finance, inspo];
+
+export const adaBeginnerProjects = [adaTask, weatherNew, tech, banana];
 
 export const workProjects = [
   pnev2,
