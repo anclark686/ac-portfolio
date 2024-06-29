@@ -1,5 +1,3 @@
-import IMAGES from "../../images/index";
-
 class Project {
   constructor(image, link, ghLink, title, language, date, tags) {
     this.image = image;
@@ -13,17 +11,17 @@ class Project {
 }
 
 const resume = new Project(
-  IMAGES.pic1,
+  "https://i.ibb.co/YDXyhsX/resume.png",
   "https://reyaly-resume.herokuapp.com/",
   "https://github.com/anclark686/reyaly_resume",
   "Resume",
   "Python: Django (Templates) - MySQL",
   "Ongoing - Personal",
-  ["python", "django", "mysql", "year-2022"],
+  ["python", "django", "mysql", "templates", "django-templates", "year-2022"],
 );
 
 const calc = new Project(
-  IMAGES.pic2,
+  "ttps://i.ibb.co/yyXzcHx/Calc.png",
   "https://reyaly-calculator.netlify.app/",
   "https://github.com/anclark686/new-calculator",
   "Calculator",
@@ -34,27 +32,27 @@ const calc = new Project(
 );
 
 const toDo = new Project(
-  IMAGES.pic3,
+  "https://i.ibb.co/42VSST9/ToDo.png",
   "https://reyaly-todo-225a1c591959.herokuapp.com/",
   "https://github.com/anclark686/django-todolist",
   "ToDo List",
   "Python: Django (Templates) - SQLite",
   "2022 - Personal",
-  ["python", "django", "sqlite", "year-2022"],
+  ["python", "django", "templates", "django-templates", "sqlite", "year-2022"],
 );
 
 const blog = new Project(
-  IMAGES.pic4,
+  "https://i.ibb.co/hHzs9Gg/Blog.png",
   "https://reyaly-blog.herokuapp.com/",
   "https://github.com/anclark686/blog2",
   "Python Blog",
   "Python: Flask (Templates) - SQLite",
   "2022 - Personal",
-  ["python", "flask", "sqlite", "year-2022"],
+  ["python", "flask", "templates", "flask-templates", "sqlite", "year-2022"],
 );
 
 const pne = new Project(
-  IMAGES.pic5,
+  "https://i.ibb.co/LCLc4MR/PNE.png",
   "#",
   "#",
   "Project Editor",
@@ -64,7 +62,7 @@ const pne = new Project(
 );
 
 const gm = new Project(
-  IMAGES.pic6,
+  "https://i.ibb.co/4RB6z2v/GM.png",
   "#",
   "#",
   "GridMaster",
@@ -74,7 +72,7 @@ const gm = new Project(
 );
 
 const weather = new Project(
-  IMAGES.pic7,
+  "https://i.ibb.co/3pjY7NB/weather.png",
   "https://reyaly-weather.netlify.app/",
   "https://github.com/anclark686/weatherapp",
   "Weather App",
@@ -85,7 +83,7 @@ const weather = new Project(
 );
 
 const portfolio = new Project(
-  IMAGES.pic8,
+  "https://i.ibb.co/4WLvg1V/portfolio.png",
   "https://reyaly-portfolio.herokuapp.com/",
   "https://github.com/anclark686/ac-portfolio",
   "Portfolio",
@@ -96,7 +94,7 @@ const portfolio = new Project(
 );
 
 const reading = new Project(
-  IMAGES.pic9,
+  "https://i.ibb.co/4Rr8RbW/reading.png",
   "https://reyaly-books.herokuapp.com/",
   "https://github.com/anclark686/reyaly-books",
   "Book Tracker",
@@ -107,7 +105,7 @@ const reading = new Project(
 );
 
 const travel = new Project(
-  IMAGES.pic10,
+  "https://i.ibb.co/qN8MGvg/travel.png",
   "https://reyalytravel.firebaseapp.com/",
   "https://github.com/anclark686/travel_site",
   "Travel Photos Site",
@@ -118,7 +116,7 @@ const travel = new Project(
 );
 
 const instagram = new Project(
-  IMAGES.pic11,
+  "https://i.ibb.co/tc6W6N7/instagram.png",
   "https://reyalygram.web.app/",
   "https://github.com/anclark686/instagram-clone",
   "Instagram Clone",
@@ -129,7 +127,7 @@ const instagram = new Project(
 );
 
 const blackBook = new Project(
-  IMAGES.pic12,
+  "https://i.ibb.co/thrrGkF/black-Book.png",
   "https://reyaly-black-book.netlify.app/",
   "https://github.com/anclark686/Reyaly-Black-Book",
   "Online Black Book",
@@ -140,7 +138,7 @@ const blackBook = new Project(
 );
 
 const tech = new Project(
-  IMAGES.pic13,
+  "https://i.ibb.co/J5vYHSR/tech-fansite.jpg",
   "https://tech-fansite.netlify.app/",
   "https://github.com/anclark686/tech-fansite",
   "Tech Fansite",
@@ -150,7 +148,7 @@ const tech = new Project(
 );
 
 const banana = new Project(
-  IMAGES.pic14,
+  "https://i.ibb.co/J2c2hQ8/banana-fansite.jpg",
   "https://anclark686.github.io/group-fansite/",
   "https://github.com/anclark686/group-fansite",
   "Banana Fansite",
@@ -160,7 +158,7 @@ const banana = new Project(
 );
 
 const newGM = new Project(
-  IMAGES.pic15,
+  "https://i.ibb.co/7gkGLyW/electron-gridmaster.jpg",
   "#",
   "#",
   "Updated Gridmaster",
@@ -170,7 +168,7 @@ const newGM = new Project(
 );
 
 const renoApp = new Project(
-  IMAGES.pic16,
+  "https://i.ibb.co/kKgdTrd/Release-notes-app.jpg",
   "#",
   "#",
   "Release Notes App",
@@ -180,17 +178,17 @@ const renoApp = new Project(
 );
 
 const blogRuby = new Project(
-  IMAGES.pic17,
+  "https://i.ibb.co/SNWxZNr/ruby-blog.png",
   "https://reyaly-blog-ruby.herokuapp.com/",
   "https://github.com/anclark686/ruby-blog",
   "Ruby Blog",
   "Ruby: Rails (Templates) - MySQL",
   "2023 - Personal",
-  ["ruby", "rails", "mysql", "year-2023"],
+  ["ruby", "rails", "templates", "rails-templates", "mysql", "year-2023"],
 );
 
 const weatherNew = new Project(
-  IMAGES.pic18,
+  "https://i.ibb.co/mH8D2VN/new-weather.png",
   "https://anclark686.github.io/weather-report/",
   "https://github.com/anclark686/weather-report",
   "New Weather App",
@@ -200,7 +198,7 @@ const weatherNew = new Project(
 );
 
 const recipes = new Project(
-  IMAGES.pic19,
+  "https://i.ibb.co/MZ9cNT9/recipes.png",
   "https://main.d3h1w2pu1ejnii.amplifyapp.com/",
   "https://github.com/anclark686/reyaly-recipes-frontend",
   "Recipe Site",
@@ -210,7 +208,7 @@ const recipes = new Project(
 );
 
 const adaTask = new Project(
-  IMAGES.pic20,
+  "https://i.ibb.co/y4vPhnv/ada-task-list.png",
   "https://task-list-anc.onrender.com",
   "https://github.com/anclark686/task-list-front-end",
   "Ada Task List",
@@ -220,7 +218,7 @@ const adaTask = new Project(
 );
 
 const inspo = new Project(
-  IMAGES.pic21,
+  "https://i.ibb.co/4JpWXKj/inspo-board.png",
   "https://inspiration-board-anc.onrender.com",
   "https://github.com/anclark686/front-end-inspiration-board",
   "Inspiration Board",
@@ -230,7 +228,7 @@ const inspo = new Project(
 );
 
 const finance = new Project(
-  IMAGES.pic22,
+  "https://i.ibb.co/JBZbfcr/financial-planner.png",
   "https://www.reyaly-financial-planner.link/",
   "https://github.com/anclark686/Reyaly-financial-planner-frontend",
   "Financial Planner",
@@ -240,7 +238,7 @@ const finance = new Project(
 );
 
 const pnev2 = new Project(
-  IMAGES.pic23,
+  "https://i.ibb.co/7pnbVXV/project-notes.png",
   "#",
   "#",
   "Project Notes Editor",
@@ -250,7 +248,7 @@ const pnev2 = new Project(
 );
 
 const workTracker = new Project(
-  IMAGES.pic25,
+  "https://i.ibb.co/QQhgGjH/work-tracker.png",
   "#",
   "#",
   "Jira + Gitlab Work Tracker",
@@ -261,7 +259,7 @@ const workTracker = new Project(
 );
 
 const validator = new Project(
-  IMAGES.pic24,
+  "https://i.ibb.co/Sw9rsQL/project-validator.png",
   "#",
   "#",
   "Project Validator",

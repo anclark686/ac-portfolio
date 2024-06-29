@@ -84,6 +84,7 @@ const Projects = () => {
 
       <div className="project-container">
         <h4 className="project-header">Personal Projects</h4>
+        <p>(Expand fields to view more)</p>
         <div className="container">
         <Accordion className="project-accordion" defaultActiveKey="0">
           <Accordion.Item eventKey="0">
@@ -121,6 +122,7 @@ const Projects = () => {
         </Accordion>
         </div>
         <h4 className="project-header">Ada Developers Academy Projects</h4>
+        <p>(Expand fields to view more)</p>
         <div className="container">
           <Accordion className="project-accordion" defaultActiveKey="0">
             <Accordion.Item eventKey="0">

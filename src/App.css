@@ -25,6 +25,8 @@ body::-webkit-scrollbar-thumb {
 
 .fullApp {
   font-family: "Quicksand", sans-serif;
+  margin-bottom: 75px;
+  width: calc(100vw - 1rem);
 }
 
 a {
@@ -147,14 +149,14 @@ a {
   text-align: center;
 }
 
+.accordion-button {
+  background-color: #31d2f2 !important;
+  font-weight: bold;
+}
+
 .accordion-button:focus {
   border-color: white !important;
   box-shadow: none !important;
-}
-
-.accordion-button:not(.collapsed) {
-  background-color: #31d2f2 !important; 
-  font-weight: bold;
 }
 
 .project-header {
@@ -266,7 +268,7 @@ a {
 .link-row a {
   color: var(--sky-blue);
   display: flex;
-  
+
   align-items: center;
 }
 
@@ -414,6 +416,36 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+  .fullApp {
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 75px;
+    width: 100vw;
+  }
+
+  .navbar:hover {
+    height: 5rem;
+  }
+
+  .navbar:hover .nav-text {
+    display: none;
+  }
+
+  #alycia {
+    font-size: 18vw;
+  }
+
+  #title {
+    font-size: 6vw;
+  }
+
+  .nav-links {
+    width: 100%;
+  }
+
+  .nav-pic {
+    width: 35px;
+  }
+
   .header {
     font-size: 70px;
   }
@@ -432,24 +464,23 @@ a {
   .home-link {
     width: 100%;
     margin: 5px;
-    height: 200px;
+    height: 245px;
   }
 
   .tech-pic {
-    width: 45%;
+    width: 55%;
   }
 
   .carousel {
     width: 75%;
-    height: 9.5rem;
+    height: 10rem;
     margin: 20px auto 10px auto;
   }
 
   .icon-carousel-container {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 5px;
-
     background-color: var(--dark-blue);
   }
 
@@ -460,7 +491,7 @@ a {
   }
 
   .carousel-text {
-    color: white;
+    font-size: 1rem;
   }
 
   .carousel-pic {
@@ -469,5 +500,26 @@ a {
     width: 100%;
     border-radius: 5px;
     height: 150px;
+  }
+
+  .tech-checkboxes {
+    flex-direction: column;
+  }
+
+  .project {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin: 10px 0;
+  }
+
+  .project-image {
+    width: 300px;
+    height: 150px;
+    margin: 15px;
+  }
+
+  .experience-card, .education-card {
+    width: 90%;
   }
 }
