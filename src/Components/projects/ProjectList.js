@@ -21,7 +21,7 @@ const resume = new Project(
 );
 
 const calc = new Project(
-  "ttps://i.ibb.co/yyXzcHx/Calc.png",
+  "https://i.ibb.co/yyXzcHx/Calc.png",
   "https://reyaly-calculator.netlify.app/",
   "https://github.com/anclark686/new-calculator",
   "Calculator",
