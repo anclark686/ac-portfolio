@@ -161,6 +161,7 @@ a {
 
 .project-header {
   margin-top: 50px;
+  font-weight: bold;
 }
 
 .project-image {
@@ -450,6 +451,10 @@ a {
     font-size: 70px;
   }
 
+  .home-link h3 {
+    font-weight: bold;
+  }
+
   .contactCard {
     width: 75%;
   }
@@ -509,14 +514,14 @@ a {
   .project {
     border: 1px solid lightgray;
     border-radius: 10px;
-    padding-bottom: 10px;
     margin: 10px 0;
+    padding: 15px;
   }
 
   .project-image {
     width: 300px;
-    height: 150px;
-    margin: 15px;
+    height: 200px;
+    margin: 15px 0;
   }
 
   .experience-card, .education-card {
