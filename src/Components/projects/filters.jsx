@@ -138,6 +138,17 @@ const Filters = ({ setFilteredProjects }) => {
                     <input
                       type="checkbox"
                       className="sub-select"
+                      id="svelte"
+                      onChange={setFilteredProjects}
+                    />
+                    <label htmlFor="svelte" className="sub-tech-label">
+                      Svelte
+                    </label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      className="sub-select"
                       id="electron"
                       onChange={setFilteredProjects}
                     />

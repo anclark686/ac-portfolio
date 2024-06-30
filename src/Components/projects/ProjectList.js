@@ -269,6 +269,17 @@ const validator = new Project(
   ["javascript", "react", "chrome", "year-2024"],
 );
 
+const svelteNotes = new Project(
+  "https://i.ibb.co/2cW7T4G/svelte-notes.png",
+  "https://reyaly-notes-svelte.firebaseapp.com/",
+  "https://github.com/anclark686/svelte-notes",
+  "Svelte Notes",
+  // eslint-disable-next-line
+  "JavaScript: Svelte - Firestore",
+  "2024 - Personal",
+  ["javascript", "svelte", "firestore", "year-2024"],
+);
+
 export const personalProjects = [
   portfolio,
   resume,
@@ -279,10 +290,11 @@ export const personalProjects = [
 ];
 
 export const beginnerProjects = [
+  svelteNotes,
   instagram,
-  toDo,
   blog,
   blogRuby,
+  toDo,
   weather,
   calc,
 ];
